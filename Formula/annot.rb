@@ -5,15 +5,15 @@
 class Annot < Formula
   desc "Human-in-the-loop annotation tool for ai workflows"
   homepage "https://github.com/denolehov/annot"
-  url "https://github.com/denolehov/annot/archive/refs/tags/v0.12.0.tar.gz"
-  version "0.12.0"
-  sha256 "46d8e227f732b98a47a57a43a6501f9a755fb45350b022261a1e59f7cb64ff4c"
+  url "https://github.com/denolehov/annot/archive/refs/tags/v0.12.1.tar.gz"
+  version "0.12.1"
+  sha256 "692334ad2d295c0ceb2f1352fd7948138b011a5105d23e6364efc15160339bb5"
   license "AGPL-3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/denolehov/annot/releases/download/v0.12.0/annot-0.12.0-darwin-arm64.tar.gz"
-      sha256 "ae395f8ef4678f91b57c5a63506240ab0be5bf922e75c919359c26c8d88f75e7"
+      url "https://github.com/denolehov/annot/releases/download/v0.12.1/annot-0.12.1-darwin-arm64.tar.gz"
+      sha256 "af8e8a7c4ca27db8c225b3c4a0f076a2603e7abd26a352be33a844b85bd43d83"
     end
   end
 
